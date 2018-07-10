@@ -7,5 +7,19 @@ html {
 }
 
 body {
-    background-color: rgb(161, 23, 23)
+    background-color: rgb(233, 24, 24)
+}
+nav {
+    background-color: rgb(112, 13, 13);
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav a{
+    margin: .2em 1em 0px 1em;
+    color: burlywood;
 }
