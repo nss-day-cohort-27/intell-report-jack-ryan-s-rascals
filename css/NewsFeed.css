@@ -14,18 +14,27 @@
     color:black;
 
 }
+.miller img
+{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    border-radius:8px;
+    max-width:500px;
+    max-height:500px;
+    
+}
 main{
     flex:2;
     margin:1em;
 }
-.img-jail
+.img-jail img
 {
-    width:auto;
-    height:auto;
+    width:60%;
+    height:60%;
     overflow:hidden;
     border-radius:8px;
-    max-width: 400px; 
-    max-height: 400px;
+
 }
 aside{
     flex: 1;
