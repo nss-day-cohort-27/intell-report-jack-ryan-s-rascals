@@ -1,11 +1,15 @@
+h1{
+    text-align: center;
+}
+
 .heading{
 text-align: center;
-color: black;
+color: white;
 
 }
 .flex-item {
 
-    background-color: lightsalmon;
+    background-color: rgb(189, 66, 18);
     border-radius: 5%;
     width: 50%;
     height: 40%;
@@ -17,8 +21,13 @@ color: black;
 .flexcontainer{
         display: flex;
         display: -webkit-flex;
-        width: 100%;        
+        width: 100%;   
+        background-color: bisque;     
     }
     p{
         text-align: left;
+    }
+    ul{
+        font-size: 20px;
+        font-weight: bold;
     }
