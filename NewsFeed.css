@@ -1,0 +1,31 @@
+
+.wrapper
+{
+    font: italic bold 12px/30px Georgia, serif;
+}
+
+
+.flex-container{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color:lightgoldenrodyellow;
+
+}
+main{
+    flex:2;
+    margin:1em;
+}
+.img-jail
+{
+    width:auto;
+    height:auto;
+    overflow:hidden;
+    border-radius:8px;
+    max-width: 500px; 
+    max-height: 500px;
+}
+aside{
+    flex: 1;
+    margin: 1em;
+}
