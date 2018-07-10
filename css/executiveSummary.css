@@ -1,8 +1,23 @@
  .seanMiller {
-        height: 50%;
-        width:auto;
+        height: auto;
+        width:100%;
         overflow: hidden;
  }
  
+ .flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-direction:row;
+}
 
+.info{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-flow: column wrap;
+}
 
+.newTitle{
+    text-align: center;
+}
