@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+
+main {
+    flex: 4;
+    margin: 2em;;
+}
+
+aside {
+    flex: 1;
+    margin: 2em;
+    justify-content: flex-end;
+    width: 80%;
+    height: 3em;
+}
+
+h1 {
+    text-align: center;
+}
+
+aside p {
+    background-color: bisque;
+    margin-top: 0;
+}
+
+aside img {
+    display: block;
+}
