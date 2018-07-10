@@ -1,12 +1,10 @@
 h1{
     text-align: center;
 }
-h3{
-    text-align: center;
-}
+
 .heading{
 text-align: center;
-color: black;
+color: white;
 
 }
 .flex-item {
@@ -23,7 +21,8 @@ color: black;
 .flexcontainer{
         display: flex;
         display: -webkit-flex;
-        width: 100%;        
+        width: 100%;   
+        background-color: bisque;     
     }
     p{
         text-align: left;
