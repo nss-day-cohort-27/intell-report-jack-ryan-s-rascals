@@ -39,3 +39,7 @@ aside img {
 ul li {  /*maincss added white to text but needed ul li */
     color: white;
 }
+
+.RapTitle {
+    text-align: center;
+}
