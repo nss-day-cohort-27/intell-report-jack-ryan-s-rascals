@@ -20,6 +20,7 @@ aside {
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 aside p {
@@ -29,4 +30,10 @@ aside p {
 
 aside img {
     display: block;
+    border: 1px;
+    border-color: salmon;
+}
+
+ul li {
+    color: white;
 }
