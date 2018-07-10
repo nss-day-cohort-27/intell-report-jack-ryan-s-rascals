@@ -26,14 +26,16 @@ h1 {
 aside p {
     background-color: bisque;
     margin-top: 0;
+    color: black;
+    text-align: center;
+    border: 2px solid green;
 }
 
 aside img {
     display: block;
-    border: 1px;
-    border-color: salmon;
+    border: 2px solid green;
 }
 
-ul li {
+ul li {  /*maincss added white to text but needed ul li */
     color: white;
 }
